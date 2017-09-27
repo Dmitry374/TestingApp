@@ -13,6 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tvTest = (TextView) findViewById(R.id.tvTest);
 
-        tvTest.setText("Hello !!!");
+        tvTest.setText("Hello Dima !!!");
     }
 }
