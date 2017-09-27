@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
 
         EditText edName = (EditText) findViewById(R.id.edName);
 
-
+        edName.setText("Hi");
     }
 }
