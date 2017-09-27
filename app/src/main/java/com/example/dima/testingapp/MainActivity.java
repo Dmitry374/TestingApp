@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
         tvTest.setText("Hello Dima !!!");
 
         EditText edName = (EditText) findViewById(R.id.edName);
+
+
     }
 }
