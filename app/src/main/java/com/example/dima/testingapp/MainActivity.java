@@ -2,6 +2,7 @@ package com.example.dima.testingapp;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -14,5 +15,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tvTest = (TextView) findViewById(R.id.tvTest);
 
         tvTest.setText("Hello Dima !!!");
+
+        EditText edName = (EditText) findViewById(R.id.edName);
     }
 }
