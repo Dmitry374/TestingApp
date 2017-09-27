@@ -14,9 +14,5 @@ public class MainActivity extends AppCompatActivity {
         TextView tvTest = (TextView) findViewById(R.id.tvTest);
 
         tvTest.setText("Hello !!!");
-
-        for (int i = 0; i < 10; i ++){
-            tvTest.setText("Count " + i);
-        }
     }
 }
